@@ -66,7 +66,7 @@ namespace SysMngToolDemo
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             WinChromeSamp win = new WinChromeSamp();
-            GR.Children.Add(win);
+            //GR.Children.Add(win);
         }
     }
 }
