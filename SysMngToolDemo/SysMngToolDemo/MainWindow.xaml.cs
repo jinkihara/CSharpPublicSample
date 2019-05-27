@@ -1,4 +1,5 @@
 ﻿using SysMngToolDemo.DragMove;
+using SysMngToolDemo.Haribote;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -67,6 +68,12 @@ namespace SysMngToolDemo
         {
             WinChromeSamp win = new WinChromeSamp();
             //GR.Children.Add(win);
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            JobnetView win = new JobnetView();
+            win.Show();
         }
     }
 }

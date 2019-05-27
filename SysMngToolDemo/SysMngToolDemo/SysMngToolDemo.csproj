@@ -99,6 +99,60 @@
     <Compile Include="DragMove\WindowChromeSamp.xaml.cs">
       <DependentUpon>WindowChromeSamp.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Haribote\JobFlowView2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Haribote\JobFlowView2.Designer.cs">
+      <DependentUpon>JobFlowView2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Haribote\JobFlowView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Haribote\JobFlowView.Designer.cs">
+      <DependentUpon>JobFlowView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Haribote\JobControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Haribote\JobControl.Designer.cs">
+      <DependentUpon>JobControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Haribote\JobnetControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Haribote\JobnetControl.Designer.cs">
+      <DependentUpon>JobnetControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Haribote\JobnetView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Haribote\JobnetView.Designer.cs">
+      <DependentUpon>JobnetView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Haribote\LineControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Haribote\LineControl.Designer.cs">
+      <DependentUpon>LineControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Haribote\LineControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Haribote\LineControl2.Designer.cs">
+      <DependentUpon>LineControl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Haribote\TableControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Haribote\TableControl.Designer.cs">
+      <DependentUpon>TableControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Haribote\TableLayoutView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Haribote\TableLayoutView.Designer.cs">
+      <DependentUpon>TableLayoutView.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +180,33 @@
     </Compile>
     <EmbeddedResource Include="Components\ComponentBase.resx">
       <DependentUpon>ComponentBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Haribote\JobFlowView2.resx">
+      <DependentUpon>JobFlowView2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Haribote\JobFlowView.resx">
+      <DependentUpon>JobFlowView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Haribote\JobControl.resx">
+      <DependentUpon>JobControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Haribote\JobnetControl.resx">
+      <DependentUpon>JobnetControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Haribote\JobnetView.resx">
+      <DependentUpon>JobnetView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Haribote\LineControl.resx">
+      <DependentUpon>LineControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Haribote\LineControl2.resx">
+      <DependentUpon>LineControl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Haribote\TableControl.resx">
+      <DependentUpon>TableControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Haribote\TableLayoutView.resx">
+      <DependentUpon>TableLayoutView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
