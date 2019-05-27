@@ -17,15 +17,20 @@ namespace SysMngToolDemo.Haribote
             InitializeComponent();
         }
 
-        public void SetTableName(string sTablename)
+        [Browsable(true)]
+        public string TableName
         {
-            lblTableName.Text = sTablename;
+            get { return lblTableName.Text; }
+            set { lblTableName.Text = value; }
         }
 
         private void tableLayoutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            TableLayoutView win = new TableLayoutView();
+            CommonListView win = new CommonListView();
             win.Show();
+            win.Text = "Table Layout Definition";
+            win.ListTitle = "契約管理(ContactManage)";
+            
         }
 
         private void ShowTableContextMenu(object sender, MouseEventArgs e)

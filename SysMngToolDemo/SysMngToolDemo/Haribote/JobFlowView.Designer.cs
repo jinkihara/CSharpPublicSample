@@ -98,36 +98,36 @@
             this.formListToolStripMenuItem,
             this.windowListToolStripMenuItem});
             this.JobContextMenuStrip.Name = "JobContextMenuStrip";
-            this.JobContextMenuStrip.Size = new System.Drawing.Size(143, 114);
+            this.JobContextMenuStrip.Size = new System.Drawing.Size(137, 114);
             // 
             // moduleListToolStripMenuItem
             // 
             this.moduleListToolStripMenuItem.Name = "moduleListToolStripMenuItem";
-            this.moduleListToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.moduleListToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.moduleListToolStripMenuItem.Text = "Module List";
             // 
             // tableListToolStripMenuItem
             // 
             this.tableListToolStripMenuItem.Name = "tableListToolStripMenuItem";
-            this.tableListToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.tableListToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.tableListToolStripMenuItem.Text = "Table List";
             // 
             // fileListToolStripMenuItem
             // 
             this.fileListToolStripMenuItem.Name = "fileListToolStripMenuItem";
-            this.fileListToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.fileListToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.fileListToolStripMenuItem.Text = "File List";
             // 
             // formListToolStripMenuItem
             // 
             this.formListToolStripMenuItem.Name = "formListToolStripMenuItem";
-            this.formListToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.formListToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.formListToolStripMenuItem.Text = "Form List";
             // 
             // windowListToolStripMenuItem
             // 
             this.windowListToolStripMenuItem.Name = "windowListToolStripMenuItem";
-            this.windowListToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.windowListToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.windowListToolStripMenuItem.Text = "Screen List";
             // 
             // txtRegistDetail
@@ -167,9 +167,13 @@
             this.tableControl1.Name = "tableControl1";
             this.tableControl1.Size = new System.Drawing.Size(106, 95);
             this.tableControl1.TabIndex = 12;
+            this.tableControl1.TableName = "契約管理ContractManage";
             // 
             // Job14
             // 
+            this.Job14.ContentString = "契約情報登録";
+            this.Job14.FooterString = "---";
+            this.Job14.HeaderString = "JOB01003";
             this.Job14.Location = new System.Drawing.Point(331, 250);
             this.Job14.Name = "Job14";
             this.Job14.Size = new System.Drawing.Size(117, 107);
@@ -177,6 +181,9 @@
             // 
             // Job13
             // 
+            this.Job13.ContentString = "〇〇〇";
+            this.Job13.FooterString = "---";
+            this.Job13.HeaderString = "JOB01002";
             this.Job13.Location = new System.Drawing.Point(194, 250);
             this.Job13.Name = "Job13";
             this.Job13.Size = new System.Drawing.Size(117, 107);
@@ -184,6 +191,9 @@
             // 
             // Job12
             // 
+            this.Job12.ContentString = "〇〇〇";
+            this.Job12.FooterString = "---";
+            this.Job12.HeaderString = "JOB01001";
             this.Job12.Location = new System.Drawing.Point(50, 249);
             this.Job12.Name = "Job12";
             this.Job12.Size = new System.Drawing.Size(117, 107);
@@ -191,6 +201,9 @@
             // 
             // Job11
             // 
+            this.Job11.ContentString = "〇〇〇";
+            this.Job11.FooterString = "---";
+            this.Job11.HeaderString = "JOB01000";
             this.Job11.Location = new System.Drawing.Point(52, 42);
             this.Job11.Name = "Job11";
             this.Job11.Size = new System.Drawing.Size(117, 107);

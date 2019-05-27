@@ -28,7 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            this.LineContextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.SuspendLayout();
+            // 
+            // LineContextMenuStrip
+            // 
+            this.LineContextMenuStrip.Name = "LineContextMenuStrip";
+            this.LineContextMenuStrip.Size = new System.Drawing.Size(181, 26);
             // 
             // LineControl
             // 
@@ -44,5 +51,6 @@
 
         #endregion
 
+        private System.Windows.Forms.ContextMenuStrip LineContextMenuStrip;
     }
 }

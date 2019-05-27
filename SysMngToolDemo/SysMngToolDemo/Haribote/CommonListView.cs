@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace SysMngToolDemo.Haribote
 {
-    public partial class TableLayoutView : Form
+    public partial class CommonListView : Form
     {
-        public TableLayoutView()
+        public CommonListView()
         {
             InitializeComponent();
+        }
+        public string ListTitle
+        {
+            get { return lblListName.Text; }
+            set { lblListName.Text = value; }
         }
     }
 }

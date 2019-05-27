@@ -147,11 +147,11 @@
     <Compile Include="Haribote\TableControl.Designer.cs">
       <DependentUpon>TableControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Haribote\TableLayoutView.cs">
+    <Compile Include="Haribote\CommonListView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Haribote\TableLayoutView.Designer.cs">
-      <DependentUpon>TableLayoutView.cs</DependentUpon>
+    <Compile Include="Haribote\CommonListView.Designer.cs">
+      <DependentUpon>CommonListView.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -205,8 +205,8 @@
     <EmbeddedResource Include="Haribote\TableControl.resx">
       <DependentUpon>TableControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Haribote\TableLayoutView.resx">
-      <DependentUpon>TableLayoutView.cs</DependentUpon>
+    <EmbeddedResource Include="Haribote\CommonListView.resx">
+      <DependentUpon>CommonListView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
