@@ -153,6 +153,7 @@
     <Compile Include="Haribote\CommonListView.Designer.cs">
       <DependentUpon>CommonListView.cs</DependentUpon>
     </Compile>
+    <Compile Include="Haribote\TableDefinitionInfo.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>

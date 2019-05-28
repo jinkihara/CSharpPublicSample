@@ -16,18 +16,22 @@ namespace SysMngToolDemo.Haribote
         {
             InitializeComponent();
         }
+
+        // ヘッダテキスト
         public string HeaderText
         {
             get { return lblHeader.Text; }
             set { lblHeader.Text = value; }
         }
 
+        // コンテンツテキスト
         public string ContentText
         {
             get { return lblContent.Text; }
             set { lblContent.Text = value; }
         }
 
+        // フッタテキスト
         public string FooterText
         {
             get { return lblFooter.Text; }
@@ -49,10 +53,11 @@ namespace SysMngToolDemo.Haribote
         // ヘッダマウスアップ
         private void lblHeader_MouseUp(object sender, MouseEventArgs e)
         {
-            Console.WriteLine("ヘッダマウスアップ");
-            this.JobnetContextMenuStrip.Show();
-            this.JobnetContextMenuStrip.Left = this.ParentForm.Location.X + this.Left + e.Location.X;
-            this.JobnetContextMenuStrip.Top = this.ParentForm.Location.Y + this.Top + e.Location.Y;
+            if (e.Button == MouseButtons.Right) { 
+                this.JobnetContextMenuStrip.Show();
+                this.JobnetContextMenuStrip.Left = this.ParentForm.Location.X + this.Left + e.Location.X;
+                this.JobnetContextMenuStrip.Top = this.ParentForm.Location.Y + this.Top + e.Location.Y;
+            }
         }
 
         private void job02ToolStripMenuItem_Click(object sender, EventArgs e)

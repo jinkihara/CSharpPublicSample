@@ -16,10 +16,17 @@ namespace SysMngToolDemo.Haribote
         {
             InitializeComponent();
         }
+
         public string ListTitle
         {
             get { return lblListName.Text; }
             set { lblListName.Text = value; }
+        }
+
+        public DataTable DispData
+        {
+            get { return (DataTable)this.dgrList.DataSource; }
+            set { this.dgrList.DataSource = value; }
         }
     }
 }
