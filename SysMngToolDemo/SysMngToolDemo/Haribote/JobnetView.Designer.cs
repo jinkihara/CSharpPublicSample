@@ -41,6 +41,9 @@
             // 
             // jobnetControl1
             // 
+            this.jobnetControl1.ContentText = "契約登録";
+            this.jobnetControl1.FooterText = "---";
+            this.jobnetControl1.HeaderText = "JOBNET001";
             this.jobnetControl1.Location = new System.Drawing.Point(92, 48);
             this.jobnetControl1.Name = "jobnetControl1";
             this.jobnetControl1.Size = new System.Drawing.Size(98, 100);
@@ -52,12 +55,12 @@
             this.ShowJoblistMenuItem,
             this.JobsMenuItem});
             this.JobnetContextMenu.Name = "JobnetContextMenu";
-            this.JobnetContextMenu.Size = new System.Drawing.Size(121, 48);
+            this.JobnetContextMenu.Size = new System.Drawing.Size(114, 48);
             // 
             // ShowJoblistMenuItem
             // 
             this.ShowJoblistMenuItem.Name = "ShowJoblistMenuItem";
-            this.ShowJoblistMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.ShowJoblistMenuItem.Size = new System.Drawing.Size(113, 22);
             this.ShowJoblistMenuItem.Text = "Job List";
             // 
             // JobsMenuItem
@@ -66,19 +69,19 @@
             this.ShowJob01MenuItem,
             this.ShowJob02MenuItem});
             this.JobsMenuItem.Name = "JobsMenuItem";
-            this.JobsMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.JobsMenuItem.Size = new System.Drawing.Size(113, 22);
             this.JobsMenuItem.Text = "Jobs";
             // 
             // ShowJob01MenuItem
             // 
             this.ShowJob01MenuItem.Name = "ShowJob01MenuItem";
-            this.ShowJob01MenuItem.Size = new System.Drawing.Size(109, 22);
+            this.ShowJob01MenuItem.Size = new System.Drawing.Size(104, 22);
             this.ShowJob01MenuItem.Text = "Job01";
             // 
             // ShowJob02MenuItem
             // 
             this.ShowJob02MenuItem.Name = "ShowJob02MenuItem";
-            this.ShowJob02MenuItem.Size = new System.Drawing.Size(109, 22);
+            this.ShowJob02MenuItem.Size = new System.Drawing.Size(104, 22);
             this.ShowJob02MenuItem.Text = "Job02";
             // 
             // contextMenuStrip1

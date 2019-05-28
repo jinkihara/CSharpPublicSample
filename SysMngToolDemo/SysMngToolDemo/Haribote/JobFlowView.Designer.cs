@@ -133,10 +133,10 @@
             // txtRegistDetail
             // 
             this.txtRegistDetail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtRegistDetail.Location = new System.Drawing.Point(502, 215);
+            this.txtRegistDetail.Location = new System.Drawing.Point(491, 215);
             this.txtRegistDetail.Multiline = true;
             this.txtRegistDetail.Name = "txtRegistDetail";
-            this.txtRegistDetail.Size = new System.Drawing.Size(151, 35);
+            this.txtRegistDetail.Size = new System.Drawing.Size(162, 35);
             this.txtRegistDetail.TabIndex = 14;
             this.txtRegistDetail.Text = "登録データ：契約情報\r\n登録条件　：年収＞３００万円";
             this.txtRegistDetail.Visible = false;
@@ -145,9 +145,9 @@
             // 
             this.lineTextDetail.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("lineTextDetail.BackgroundImage")));
             this.lineTextDetail.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.lineTextDetail.Location = new System.Drawing.Point(473, 252);
+            this.lineTextDetail.Location = new System.Drawing.Point(473, 249);
             this.lineTextDetail.Name = "lineTextDetail";
-            this.lineTextDetail.Size = new System.Drawing.Size(29, 54);
+            this.lineTextDetail.Size = new System.Drawing.Size(22, 57);
             this.lineTextDetail.TabIndex = 15;
             this.lineTextDetail.Visible = false;
             // 

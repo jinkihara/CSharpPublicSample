@@ -71,5 +71,12 @@ namespace SysMngToolDemo.Haribote
             win.Show();
         }
 
+        private void JobListToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CommonListView win = new CommonListView();
+            win.Show();
+            win.ListTitle = "ジョブ一覧";
+            win.Text = "ジョブ一覧";
+        }
     }
 }
