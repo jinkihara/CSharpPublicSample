@@ -62,6 +62,7 @@
             this.lblFooter.TabIndex = 1;
             this.lblFooter.Text = "label2";
             this.lblFooter.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblFooter.MouseUp += new System.Windows.Forms.MouseEventHandler(this.lblFooter_MouseUp);
             // 
             // lblContent
             // 
@@ -72,6 +73,7 @@
             this.lblContent.Size = new System.Drawing.Size(150, 104);
             this.lblContent.TabIndex = 2;
             this.lblContent.Text = "label3";
+            this.lblContent.MouseUp += new System.Windows.Forms.MouseEventHandler(this.lblContent_MouseUp);
             // 
             // JobnetContextMenuStrip
             // 
@@ -79,12 +81,12 @@
             this.jobListToolStripMenuItem,
             this.jobFlowsToolStripMenuItem});
             this.JobnetContextMenuStrip.Name = "JobnetContextMenuStrip";
-            this.JobnetContextMenuStrip.Size = new System.Drawing.Size(181, 70);
+            this.JobnetContextMenuStrip.Size = new System.Drawing.Size(133, 48);
             // 
             // jobListToolStripMenuItem
             // 
             this.jobListToolStripMenuItem.Name = "jobListToolStripMenuItem";
-            this.jobListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.jobListToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.jobListToolStripMenuItem.Text = "Job List";
             this.jobListToolStripMenuItem.Click += new System.EventHandler(this.JobListToolStripMenuItem_Click);
             // 
@@ -94,20 +96,20 @@
             this.job01ToolStripMenuItem,
             this.job02ToolStripMenuItem});
             this.jobFlowsToolStripMenuItem.Name = "jobFlowsToolStripMenuItem";
-            this.jobFlowsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.jobFlowsToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.jobFlowsToolStripMenuItem.Text = "Job Flows";
             // 
             // job01ToolStripMenuItem
             // 
             this.job01ToolStripMenuItem.Name = "job01ToolStripMenuItem";
-            this.job01ToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
+            this.job01ToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.job01ToolStripMenuItem.Text = "Job01";
             this.job01ToolStripMenuItem.Click += new System.EventHandler(this.job01ToolStripMenuItem_Click);
             // 
             // job02ToolStripMenuItem
             // 
             this.job02ToolStripMenuItem.Name = "job02ToolStripMenuItem";
-            this.job02ToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
+            this.job02ToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.job02ToolStripMenuItem.Text = "Job02";
             this.job02ToolStripMenuItem.Click += new System.EventHandler(this.job02ToolStripMenuItem_Click);
             // 
