@@ -99,17 +99,23 @@
     <Compile Include="DragMove\WindowChromeSamp.xaml.cs">
       <DependentUpon>WindowChromeSamp.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Haribote\JobFlowView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Haribote\JobFlowView.Designer.cs">
+      <DependentUpon>JobFlowView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Haribote\JobFlowView2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Haribote\JobFlowView2.Designer.cs">
       <DependentUpon>JobFlowView2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Haribote\JobFlowView.cs">
+    <Compile Include="Haribote\JobFlowView1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Haribote\JobFlowView.Designer.cs">
-      <DependentUpon>JobFlowView.cs</DependentUpon>
+    <Compile Include="Haribote\JobFlowView1.Designer.cs">
+      <DependentUpon>JobFlowView1.cs</DependentUpon>
     </Compile>
     <Compile Include="Haribote\JobControl.cs">
       <SubType>UserControl</SubType>
@@ -129,6 +135,12 @@
     <Compile Include="Haribote\JobnetView.Designer.cs">
       <DependentUpon>JobnetView.cs</DependentUpon>
     </Compile>
+    <Compile Include="Haribote\MultiLineControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Haribote\MultiLineControl.Designer.cs">
+      <DependentUpon>MultiLineControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Haribote\LineControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -141,6 +153,7 @@
     <Compile Include="Haribote\LineControl2.Designer.cs">
       <DependentUpon>LineControl2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Haribote\MongoDBStub.cs" />
     <Compile Include="Haribote\TableControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -182,11 +195,14 @@
     <EmbeddedResource Include="Components\ComponentBase.resx">
       <DependentUpon>ComponentBase.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Haribote\JobFlowView.resx">
+      <DependentUpon>JobFlowView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Haribote\JobFlowView2.resx">
       <DependentUpon>JobFlowView2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Haribote\JobFlowView.resx">
-      <DependentUpon>JobFlowView.cs</DependentUpon>
+    <EmbeddedResource Include="Haribote\JobFlowView1.resx">
+      <DependentUpon>JobFlowView1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Haribote\JobControl.resx">
       <DependentUpon>JobControl.cs</DependentUpon>
@@ -196,6 +212,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Haribote\JobnetView.resx">
       <DependentUpon>JobnetView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Haribote\MultiLineControl.resx">
+      <DependentUpon>MultiLineControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Haribote\LineControl.resx">
       <DependentUpon>LineControl.cs</DependentUpon>

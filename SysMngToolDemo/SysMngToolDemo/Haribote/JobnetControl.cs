@@ -20,6 +20,13 @@ namespace SysMngToolDemo.Haribote
             jobListToolStripMenuItem.Tag = "XYZ";
         }
 
+        // ジョブネットID
+        public string JobnetId
+        {
+            get { return this.jobnetId; }
+            set { this.jobnetId = value; }
+        }
+
         // ヘッダテキスト
         public string HeaderText
         {
@@ -44,7 +51,7 @@ namespace SysMngToolDemo.Haribote
         // コンテキストメニュー Job01クリック
         private void job01ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            JobFlowView win = new JobFlowView();
+            JobFlowView1 win = new JobFlowView1();
             win.Text = ((ToolStripMenuItem)sender).Text; ;
             win.SetJobInfo("Job11", "JOB_11", "開始処理", "---");
             win.SetJobInfo("Job12", "JOB_12", "利用状況集計処理", "---");
