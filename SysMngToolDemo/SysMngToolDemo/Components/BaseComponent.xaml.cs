@@ -40,9 +40,6 @@ namespace SysMngToolDemo.Components
         public BaseComponent()
         {
             InitializeComponent();
-            ComponentContents.Add("ww");
-            ComponentContents.Add("ee");
-            this.DataContext = this;
         }
 
         private void UserControl_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -61,6 +58,27 @@ namespace SysMngToolDemo.Components
         private void UserControl_MouseMove(object sender, MouseEventArgs e)
         {
             Cursor = Cursors.Hand;
+            if (isDragging)
+            {
+                
+            }
+        }
+
+        // 
+        private void ComponentName_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Cursor = Cursors.Cross;
+            isDragging = true;
+        }
+
+        private void ComponentName_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            Cursor = Cursors.Arrow;
+            isDragging = false;
+        }
+
+        private void ComponentName_MouseMove(object sender, MouseEventArgs e)
+        {
             if (isDragging)
             {
                 

@@ -14,8 +14,8 @@
             <RowDefinition Height="75*" MinHeight="25"/>
             <RowDefinition Height="25" MinHeight="25"/>
         </Grid.RowDefinitions>
-        <Label Grid.Row="0" x:Name="ComponentName" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Stretch" Content="{Binding HeaderTitle, FallbackValue='', Mode=OneWay}"/>
-        <ListBox Grid.Row="1" x:Name="ComponentContent" BorderBrush="Black" ItemsSource="{Binding ComponentContents, Mode=TwoWay}" />
+        <Label Grid.Row="0" x:Name="ComponentName" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Stretch" Content="{Binding HeaderTitle, FallbackValue='', Mode=OneWay}" MouseLeftButtonDown="ComponentName_MouseLeftButtonDown" MouseLeftButtonUp="ComponentName_MouseLeftButtonUp" MouseMove="ComponentName_MouseMove"/>
+        <ListBox Grid.Row="1" x:Name="ComponentContent" BorderBrush="Black" ItemsSource="{Binding ComponentContents, Mode=TwoWay}" Background="Transparent" />
         <Label Grid.Row="2" x:Name="ComponentFooter" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Stretch" Content="{Binding Footer, FallbackValue='', Mode=OneWay}"  />
     </Grid>
 </UserControl>

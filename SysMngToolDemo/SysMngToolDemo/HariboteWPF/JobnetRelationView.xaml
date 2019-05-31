@@ -1,0 +1,9 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Components="clr-namespace:SysMngToolDemo.Components" xmlns:local="clr-namespace:SysMngToolDemo.HariboteWPF" x:Class="SysMngToolDemo.HariboteWPF.JobnetRelationView"
+        Title="JobnetRelationView" Height="573.818" Width="783.272" Background="AliceBlue">
+    <Canvas>
+        <Components:BaseComponent HorizontalAlignment="Left" Height="143" Margin="75,121,0,0" VerticalAlignment="Top" Width="130"/>
+    </Canvas>
+</Window>

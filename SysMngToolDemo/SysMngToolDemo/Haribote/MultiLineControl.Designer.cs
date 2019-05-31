@@ -71,6 +71,7 @@
             this.lineHorizont.MouseLeave += new System.EventHandler(this.lineHorizont_MouseLeave);
             this.lineHorizont.MouseHover += new System.EventHandler(this.lineHorizont_MouseHover);
             this.lineHorizont.MouseMove += new System.Windows.Forms.MouseEventHandler(this.lineHorizont_MouseMove);
+            this.lineHorizont.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ShowContextMenu);
             // 
             // lineStart
             // 
@@ -84,6 +85,7 @@
             this.lineStart.Text = "label1";
             this.lineStart.MouseLeave += new System.EventHandler(this.lineStart_MouseLeave);
             this.lineStart.MouseHover += new System.EventHandler(this.lineStart_MouseHover);
+            this.lineStart.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ShowContextMenu);
             // 
             // lineEnd
             // 
@@ -95,6 +97,9 @@
             this.lineEnd.Size = new System.Drawing.Size(5, 80);
             this.lineEnd.TabIndex = 3;
             this.lineEnd.Text = "label2";
+            this.lineEnd.MouseLeave += new System.EventHandler(this.lineEnd_MouseLeave);
+            this.lineEnd.MouseHover += new System.EventHandler(this.lineEnd_MouseHover);
+            this.lineEnd.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ShowContextMenu);
             // 
             // MultiLineControl
             // 

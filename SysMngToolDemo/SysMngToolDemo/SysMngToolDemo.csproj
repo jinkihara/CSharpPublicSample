@@ -71,6 +71,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="HariboteWPF\JobnetRelationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HariboteWPF\MultiLineControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -98,6 +106,12 @@
     <Compile Include="DragMove\WinChromeSamp.cs" />
     <Compile Include="DragMove\WindowChromeSamp.xaml.cs">
       <DependentUpon>WindowChromeSamp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HariboteWPF\JobnetRelationView.xaml.cs">
+      <DependentUpon>JobnetRelationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HariboteWPF\MultiLineControl.xaml.cs">
+      <DependentUpon>MultiLineControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Haribote\JobFlowView.cs">
       <SubType>Form</SubType>
@@ -167,6 +181,9 @@
       <DependentUpon>CommonListView.cs</DependentUpon>
     </Compile>
     <Compile Include="Haribote\TableDefinitionInfo.cs" />
+    <Compile Include="Haribote\TransparentSample.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -244,6 +261,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

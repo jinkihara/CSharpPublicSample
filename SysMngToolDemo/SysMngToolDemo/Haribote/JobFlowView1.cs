@@ -15,6 +15,11 @@ namespace SysMngToolDemo.Haribote
         public JobFlowView1()
         {
             InitializeComponent();
+            SetStyle(ControlStyles.SupportsTransparentBackColor, true);
+            multiLineControl1.BackColor = Color.Transparent;
+            multiLineControl2.BackColor = Color.Transparent;
+            multiLineControl3.BackColor = Color.Transparent;
+
         }
 
         public void SetJobInfo(string jobId, string jobHeader, string jobContent, string jobFooter)

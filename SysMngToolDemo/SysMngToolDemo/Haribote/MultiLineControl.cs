@@ -95,31 +95,54 @@ namespace SysMngToolDemo.Haribote
 
         private void lineStart_MouseHover(object sender, EventArgs e)
         {
-            SetLineColor(Color.Red);
+            SetLineColor(sender, Color.Red);
             ShowComments();
         }
 
         private void lineStart_MouseLeave(object sender, EventArgs e)
         {
-            SetLineColor(Color.Black);
+            SetLineColor(sender, Color.Black);
             HideComments();
         }
 
         private void lineHorizont_MouseHover(object sender, EventArgs e)
         {
-            SetLineColor(Color.Red);
+            SetLineColor(sender, Color.Red);
         }
 
         private void lineHorizont_MouseLeave(object sender, EventArgs e)
         {
-            SetLineColor(Color.Black);
+            SetLineColor(sender, Color.Black);
         }
 
-        private void SetLineColor(Color lineColor)
+        private void SetLineColor(object sender, Color lineColor)
         {
+            this.BringToFront();
+            this.BackColor = Color.Transparent;
             lineStart.BackColor = lineColor;
             lineHorizont.BackColor = lineColor;
             lineEnd.BackColor = lineColor;
+        }
+
+        private void lineEnd_MouseHover(object sender, EventArgs e)
+        {
+            SetLineColor(sender, Color.Red);
+        }
+
+        private void lineEnd_MouseLeave(object sender, EventArgs e)
+        {
+            SetLineColor(sender, Color.Black);
+        }
+
+        private void ShowContextMenu(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                LineContextMenuStrip.Show();
+                LineContextMenuStrip.Left = ((Label)sender).PointToScreen(e.Location).X;
+                LineContextMenuStrip.Top = ((Label)sender).PointToScreen(e.Location).Y;
+            }
+
         }
 
     }

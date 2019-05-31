@@ -40,6 +40,8 @@
             this.formListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.windowListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.txtRegistDetail = new System.Windows.Forms.TextBox();
+            this.multiLineControl3 = new SysMngToolDemo.Haribote.MultiLineControl();
+            this.multiLineControl2 = new SysMngToolDemo.Haribote.MultiLineControl();
             this.multiLineControl1 = new SysMngToolDemo.Haribote.MultiLineControl();
             this.lineControl1 = new SysMngToolDemo.Haribote.LineControl();
             this.lineTextDetail = new SysMngToolDemo.Haribote.LineControl2();
@@ -48,6 +50,7 @@
             this.Job13 = new SysMngToolDemo.Haribote.JobControl();
             this.Job12 = new SysMngToolDemo.Haribote.JobControl();
             this.Job11 = new SysMngToolDemo.Haribote.JobControl();
+            this.transparentSample1 = new SysMngToolDemo.Haribote.TransparentSample();
             this.LineContextMenuStrip.SuspendLayout();
             this.JobContextMenuStrip.SuspendLayout();
             this.SuspendLayout();
@@ -124,12 +127,28 @@
             this.txtRegistDetail.Text = "登録データ：売上情報\r\n集計キー　：契約番号";
             this.txtRegistDetail.Visible = false;
             // 
+            // multiLineControl3
+            // 
+            this.multiLineControl3.BackColor = System.Drawing.Color.Transparent;
+            this.multiLineControl3.Location = new System.Drawing.Point(88, 149);
+            this.multiLineControl3.Name = "multiLineControl3";
+            this.multiLineControl3.Size = new System.Drawing.Size(26, 100);
+            this.multiLineControl3.TabIndex = 17;
+            // 
+            // multiLineControl2
+            // 
+            this.multiLineControl2.BackColor = System.Drawing.Color.Transparent;
+            this.multiLineControl2.Location = new System.Drawing.Point(88, 149);
+            this.multiLineControl2.Name = "multiLineControl2";
+            this.multiLineControl2.Size = new System.Drawing.Size(171, 100);
+            this.multiLineControl2.TabIndex = 17;
+            // 
             // multiLineControl1
             // 
             this.multiLineControl1.BackColor = System.Drawing.Color.Transparent;
-            this.multiLineControl1.Location = new System.Drawing.Point(268, 42);
+            this.multiLineControl1.Location = new System.Drawing.Point(88, 149);
             this.multiLineControl1.Name = "multiLineControl1";
-            this.multiLineControl1.Size = new System.Drawing.Size(91, 107);
+            this.multiLineControl1.Size = new System.Drawing.Size(306, 100);
             this.multiLineControl1.TabIndex = 17;
             // 
             // lineControl1
@@ -144,7 +163,7 @@
             // 
             this.lineTextDetail.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("lineTextDetail.BackgroundImage")));
             this.lineTextDetail.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.lineTextDetail.Location = new System.Drawing.Point(530, 83);
+            this.lineTextDetail.Location = new System.Drawing.Point(510, 69);
             this.lineTextDetail.Name = "lineTextDetail";
             this.lineTextDetail.Size = new System.Drawing.Size(22, 57);
             this.lineTextDetail.TabIndex = 15;
@@ -193,10 +212,19 @@
             this.Job11.ContentString = "〇〇〇";
             this.Job11.FooterString = "---";
             this.Job11.HeaderString = "JOB01000";
-            this.Job11.Location = new System.Drawing.Point(52, 42);
+            this.Job11.Location = new System.Drawing.Point(32, 42);
             this.Job11.Name = "Job11";
             this.Job11.Size = new System.Drawing.Size(117, 107);
             this.Job11.TabIndex = 0;
+            // 
+            // transparentSample1
+            // 
+            this.transparentSample1.BackColor = System.Drawing.Color.Transparent;
+            this.transparentSample1.Location = new System.Drawing.Point(105, 67);
+            this.transparentSample1.Name = "transparentSample1";
+            this.transparentSample1.Size = new System.Drawing.Size(117, 118);
+            this.transparentSample1.TabIndex = 18;
+            this.transparentSample1.Text = "transparentSample1";
             // 
             // JobFlowView1
             // 
@@ -204,6 +232,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(710, 439);
+            this.Controls.Add(this.transparentSample1);
+            this.Controls.Add(this.multiLineControl3);
+            this.Controls.Add(this.multiLineControl2);
             this.Controls.Add(this.multiLineControl1);
             this.Controls.Add(this.lineControl1);
             this.Controls.Add(this.lineTextDetail);
@@ -242,5 +273,8 @@
         private System.Windows.Forms.ToolStripMenuItem 編集仕様ToolStripMenuItem1;
         private LineControl lineControl1;
         private MultiLineControl multiLineControl1;
+        private MultiLineControl multiLineControl2;
+        private MultiLineControl multiLineControl3;
+        private TransparentSample transparentSample1;
     }
 }

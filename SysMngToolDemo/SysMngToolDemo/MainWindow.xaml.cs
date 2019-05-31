@@ -1,5 +1,6 @@
 ﻿using SysMngToolDemo.DragMove;
 using SysMngToolDemo.Haribote;
+using SysMngToolDemo.HariboteWPF;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -73,6 +74,12 @@ namespace SysMngToolDemo
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
             JobnetView win = new JobnetView();
+            win.Show();
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            JobnetRelationView win = new JobnetRelationView();
             win.Show();
         }
     }
