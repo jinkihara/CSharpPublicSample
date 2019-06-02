@@ -5,5 +5,6 @@
         Title="JobnetRelationView" Height="573.818" Width="783.272" Background="AliceBlue">
     <Canvas>
         <Components:BaseComponent HorizontalAlignment="Left" Height="143" Margin="75,121,0,0" VerticalAlignment="Top" Width="130"/>
+        <local:MultiLineControl Height="206" Canvas.Left="344" Canvas.Top="142" Width="231"/>
     </Canvas>
 </Window>

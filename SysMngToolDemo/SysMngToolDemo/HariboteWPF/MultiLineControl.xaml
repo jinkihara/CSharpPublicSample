@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:SysMngToolDemo.HariboteWPF" x:Class="SysMngToolDemo.HariboteWPF.MultiLineControl" 
+             x:Name="multiLineControl" x:Class="SysMngToolDemo.HariboteWPF.MultiLineControl" 
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300" SizeChanged="UserControl_SizeChanged">
-    <Canvas >
-        <Rectangle x:Name="lineStart" Fill="#FF060606" Height="151" Stroke="Black" Width="4" StrokeThickness="0" Canvas.Top="1" Canvas.Left="1"/>
-        <Rectangle x:Name="lineHorizont" Fill="#FF060606" Height="4" Stroke="Black" Width="298" StrokeThickness="0" Canvas.Left="1" Canvas.Top="148"/>
-        <Rectangle x:Name="lineEnd" Fill="#FF060606" Height="151" Width="4" StrokeThickness="0" Canvas.Left="295" Canvas.Top="148"/>
+    <Grid x:Name="multiLineControlCanvas" >
+        <Rectangle x:Name="lineStart" Fill="#FF060606" Stroke="Black" StrokeThickness="0" Margin="1,1,295,152"/>
+        <Rectangle x:Name="lineHorizont" Fill="#FF060606" Stroke="Black" StrokeThickness="0" Margin="1,148,1,148" />
+        <Rectangle x:Name="lineEnd" Fill="#FF060606" StrokeThickness="0" Margin="295,148,1,1"/>
 
-    </Canvas>
+    </Grid>
 </UserControl>

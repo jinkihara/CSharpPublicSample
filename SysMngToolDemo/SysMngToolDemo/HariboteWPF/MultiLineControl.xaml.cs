@@ -31,21 +31,10 @@ namespace SysMngToolDemo.HariboteWPF
 
         private void UserControl_SizeChanged(object sender, SizeChangedEventArgs e)
         {
-            lineStart.Width = lineWeight;
-            //lineStart.Height = (this.Height + lineWeight) / 2;
+            lineStart.SetValue(Canvas.MarginProperty, new Thickness(lineMargin, lineMargin, this.Width - lineWeight, this.Height / 2 - lineMargin));
+            lineHorizont.SetValue(Canvas.MarginProperty, new Thickness(lineMargin, this.Height / 2 - lineWeight / 2, lineMargin, this.Height / 2 - lineWeight / 2));
+            lineEnd.SetValue(Canvas.MarginProperty, new Thickness(this.Width - lineMargin - lineWeight, this.Height / 2 - lineWeight / 2, lineMargin, lineMargin));
 
-            //lineStart.SetValue(Canvas.LeftProperty, lineMargin);
-            //lineStart.SetValue(Canvas.TopProperty, lineMargin);
-
-            //lineHorizont.Height = lineWeight;
-            //lineHorizont.Width = this.Width - lineMargin * 2;
-            //lineHorizont.SetValue(Canvas.LeftProperty, lineMargin);
-            //lineHorizont.SetValue(Canvas.TopProperty, (this.Height - lineWeight) / 2);
-
-            //lineEnd.Width = lineWeight;
-            //lineEnd.Height = lineStart.Height;
-            //lineEnd.SetValue(Canvas.LeftProperty, lineHorizont.Width - lineWeight + lineMargin);
-            //lineEnd.SetValue(Canvas.TopProperty, lineHorizont.GetValue(Canvas.TopProperty));
         }
     }
 }
