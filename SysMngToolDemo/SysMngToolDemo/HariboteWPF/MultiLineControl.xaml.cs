@@ -32,19 +32,20 @@ namespace SysMngToolDemo.HariboteWPF
         private void UserControl_SizeChanged(object sender, SizeChangedEventArgs e)
         {
             lineStart.Width = lineWeight;
-            lineStart.Height = (this.Height + lineWeight) / 2;
-            lineStart.SetValue(Canvas.LeftProperty, lineMargin);
-            lineStart.SetValue(Canvas.TopProperty, lineMargin);
+            //lineStart.Height = (this.Height + lineWeight) / 2;
 
-            lineHorizont.Height = lineWeight;
-            lineHorizont.Width = this.Width - lineMargin * 2;
-            lineHorizont.SetValue(Canvas.LeftProperty, lineMargin);
-            lineHorizont.SetValue(Canvas.TopProperty, (this.Height - lineWeight) / 2);
+            //lineStart.SetValue(Canvas.LeftProperty, lineMargin);
+            //lineStart.SetValue(Canvas.TopProperty, lineMargin);
 
-            lineEnd.Width = lineWeight;
-            lineEnd.Height = lineStart.Height;
-            lineEnd.SetValue(Canvas.LeftProperty, lineHorizont.Width - lineWeight + lineMargin);
-            lineEnd.SetValue(Canvas.TopProperty, lineHorizont.GetValue(Canvas.TopProperty));
+            //lineHorizont.Height = lineWeight;
+            //lineHorizont.Width = this.Width - lineMargin * 2;
+            //lineHorizont.SetValue(Canvas.LeftProperty, lineMargin);
+            //lineHorizont.SetValue(Canvas.TopProperty, (this.Height - lineWeight) / 2);
+
+            //lineEnd.Width = lineWeight;
+            //lineEnd.Height = lineStart.Height;
+            //lineEnd.SetValue(Canvas.LeftProperty, lineHorizont.Width - lineWeight + lineMargin);
+            //lineEnd.SetValue(Canvas.TopProperty, lineHorizont.GetValue(Canvas.TopProperty));
         }
     }
 }
