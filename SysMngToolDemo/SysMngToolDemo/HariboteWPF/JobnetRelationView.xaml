@@ -4,7 +4,7 @@
         xmlns:Components="clr-namespace:SysMngToolDemo.Components" xmlns:local="clr-namespace:SysMngToolDemo.HariboteWPF" x:Class="SysMngToolDemo.HariboteWPF.JobnetRelationView"
         Title="JobnetRelationView" Height="573.818" Width="783.272" Background="AliceBlue">
     <Canvas>
-        <Components:BaseComponent HorizontalAlignment="Left" Height="143" Margin="75,121,0,0" VerticalAlignment="Top" Width="130"/>
-        <local:MultiLineControl Height="206" Canvas.Left="344" Canvas.Top="142" Width="231"/>
+        <Components:BaseComponent x:Name="jobnet01" HorizontalAlignment="Left" Height="143" VerticalAlignment="Top" Width="130" Canvas.Left="100" Canvas.Top="24"/>
+        <local:MultiLineControl x:Name="line01" Height="130" Canvas.Left="282" Canvas.Top="145" Width="106"/>
     </Canvas>
 </Window>

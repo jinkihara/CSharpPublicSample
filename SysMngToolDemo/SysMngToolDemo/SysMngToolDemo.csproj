@@ -107,6 +107,7 @@
     <Compile Include="DragMove\WindowChromeSamp.xaml.cs">
       <DependentUpon>WindowChromeSamp.xaml</DependentUpon>
     </Compile>
+    <Compile Include="HariboteWPF\ControlDragExtenstions.cs" />
     <Compile Include="HariboteWPF\JobnetRelationView.xaml.cs">
       <DependentUpon>JobnetRelationView.xaml</DependentUpon>
     </Compile>

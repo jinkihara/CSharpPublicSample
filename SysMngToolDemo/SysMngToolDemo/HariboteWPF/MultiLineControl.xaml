@@ -5,11 +5,12 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              x:Name="multiLineControl" x:Class="SysMngToolDemo.HariboteWPF.MultiLineControl" 
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300" SizeChanged="UserControl_SizeChanged">
+             d:DesignHeight="300" d:DesignWidth="300" SizeChanged="UserControl_SizeChanged" MouseMove="multiLineControl_MouseMove" MouseDown="multiLineControl_MouseDown" MouseUp="multiLineControl_MouseUp">
     <Grid x:Name="multiLineControlCanvas" >
         <Rectangle x:Name="lineStart" Fill="#FF060606" Stroke="Black" StrokeThickness="0" Margin="1,1,295,152"/>
         <Rectangle x:Name="lineHorizont" Fill="#FF060606" Stroke="Black" StrokeThickness="0" Margin="1,148,1,148" />
         <Rectangle x:Name="lineEnd" Fill="#FF060606" StrokeThickness="0" Margin="295,148,1,1"/>
+        <Rectangle x:Name="controlBack" Fill="White" Margin="1,1,1,1" Stroke="Black" StrokeThickness="0" Opacity="0.1" />
 
     </Grid>
 </UserControl>

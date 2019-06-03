@@ -22,6 +22,14 @@ namespace SysMngToolDemo.HariboteWPF
         public JobnetRelationView()
         {
             InitializeComponent();
+            jobnet01.MouseLeftButtonDown += (sender, e) =>
+            {
+                jobnet01.DragMove(sender, e);
+            };
+            line01.MouseLeftButtonDown += (sender, e) =>
+            {
+                line01.DragMove(sender, e);
+            };
         }
 
         public void DoDragging(object sender ,Point moveDistance, Size resizeVolume)
