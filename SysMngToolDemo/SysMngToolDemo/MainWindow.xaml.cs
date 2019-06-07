@@ -15,6 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using SysMngToolDemo.JsonSample;
 
 namespace SysMngToolDemo
 {
@@ -81,6 +82,11 @@ namespace SysMngToolDemo
         {
             JobnetRelationView win = new JobnetRelationView();
             win.Show();
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            JsonSampleClass js = new JsonSampleClass();
         }
     }
 }
