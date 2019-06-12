@@ -13,6 +13,6 @@
         <Button Content="haribote" HorizontalAlignment="Left" Height="34" Margin="496,56,0,0" VerticalAlignment="Top" Width="114" Click="Button_Click_5"/>
         <Components:BaseComponent HorizontalAlignment="Left" Height="132" Margin="167,203,0,0" VerticalAlignment="Top" Width="131"/>
         <Button Content="Button" HorizontalAlignment="Left" Height="90" Margin="427,275,0,0" VerticalAlignment="Top" Width="154" Click="Button_Click_6"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="37" Margin="526,179,0,0" VerticalAlignment="Top" Width="84" Click="Button_Click_7"/>
+        <Button Content="Json" HorizontalAlignment="Left" Height="37" Margin="526,179,0,0" VerticalAlignment="Top" Width="84" Click="Button_Click_7"/>
     </Grid>
 </Window>
